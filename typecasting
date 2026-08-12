@@ -1,0 +1,10 @@
+class Typecasting {
+    public static void main(String[] args) {
+        int rollNumber = 12_345;
+        short convertedRollNumber =(short)rollNumber;
+        boolean hasPassed = true; 
+        System.out.println("Student Roll Number (Int): " +rollNumber);
+        System.out.println("Converted Roll Number (Short): "+convertedRollNumber);
+        System.out.println("Has Passed: "+hasPassed);
+    }
+}
